@@ -1,13 +1,13 @@
 #conteudo{
     width: 800px;
     height: 1000px;
-    background-color:rgb(222, 186, 23);
+    background-color:rgb(201, 109, 23);
     margin: 0 auto;
 }
 #cabecalho{
     width: 800px;
     height: 300px;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 #fotodeperfil{
@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 50px 5px;
 }
 #perfil{
     border-radius: 50%;
@@ -27,24 +28,74 @@
     width:500px;
     height: 300px;
     background-color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+#span-seguindo{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.juntinho{
+    margin: 0;
+}
+#essenao{
+    margin: 15px 0;
+}
+#pill{
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgb(234, 216, 216);
+
+    img{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    }
+}
+a{
+    text-decoration: none;
+}
+#icone-link{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-size: 12px;
+    background-image: url("icone-link.png");
 }
 #destaques{
     width: 800px;
     height: 100px;
-    background-color: darksalmon;
+    background-color: rgb(110, 43, 43);
 }
 .fotodestaque{
     display: flex;
     justify-content: center;
 }
-img{
+.fotodestaque img{
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     margin: 0 20px;
 }
 #feed{
     width: 800px;
     height: 1000px;
-    background-color: darkgreen;
+    background-color: rgb(147, 125, 125);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.fotofeed{
+    background-color: brown;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+#feed img{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    gap: 2px;
+    width: 266px;
+    height: 333px;
 }
