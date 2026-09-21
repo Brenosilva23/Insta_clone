@@ -65,17 +65,21 @@ a{
 #destaques{
     width: 800px;
     height: 100px;
-    background-color: rgb(110, 43, 43);
+    background-color: rgb(255, 255, 255);
+    display: flex;   
+}
+#destaques figure{
+    margin: 6px 10px;
+    text-align: center;
+    font-weight: bold;
+    
 }
 .fotodestaque{
-    display: flex;
-    justify-content: center;
-}
-.fotodestaque img{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin: 0 20px;
+    object-fit: cover;
 }
 #feed{
     width: 800px;
@@ -90,12 +94,13 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 5px solid black;
 }
-#feed img{
+#feed > img{
     display: grid;
     grid-template-columns: 3, 1fr;
     gap: 2px;
     width: 266px;
-    height: 333px;
+    height: 332px;
 }
+
