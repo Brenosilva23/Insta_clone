@@ -1,19 +1,23 @@
 #conteudo{
     width: 800px;
-    height: 1000px;
-    background-color:rgb(201, 109, 23);
+    height: 1300px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #cabecalho{
     width: 800px;
     height: 300px;
-    background-color: rgb(255, 255, 255);
     display: flex;
 }
+h3{
+  font-family: "Miltonian Tattoo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #fotodeperfil{
     width: 200px;
     height: 200px;
-    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,11 +27,11 @@
     border-radius: 50%;
     width: 175px;
     height: 175px;
+    object-fit: cover;
 }
 #textodeperfil{
     width:500px;
     height: 300px;
-    background-color: rgb(255, 255, 255);
     padding: 20px 50px;
     box-sizing: border-box;
 }
@@ -65,8 +69,9 @@ a{
 #destaques{
     width: 800px;
     height: 100px;
-    background-color: rgb(255, 255, 255);
     display: flex;   
+    overflow-x:scroll;
+    overflow-y: hidden;
 }
 #destaques figure{
     margin: 6px 10px;
@@ -76,20 +81,18 @@ a{
 }
 .fotodestaque{
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 0 20px;
     object-fit: cover;
 }
 #feed{
     width: 800px;
     height: 1000px;
-    background-color: rgb(147, 125, 125);
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .fotofeed{
-    background-color: brown;
     aspect-ratio: 3 / 4;
     display: flex;
     align-items: center;
@@ -97,10 +100,15 @@ a{
     border: 5px solid black;
 }
 #feed > img{
-    display: grid;
-    grid-template-columns: 3, 1fr;
     gap: 2px;
     width: 266px;
     height: 332px;
+    object-fit: cover;
+    z-index: 1;
+    transition: transform 0.6s ease;
+}
+#feed > img:hover{
+    z-index: 10;
+    transform: scale(1.2);
 }
 
