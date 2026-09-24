@@ -1,5 +1,4 @@
 body{
-<<<<<<< HEAD
   background-color: rgb(190, 156, 156);
 }
 #pagina{
@@ -10,21 +9,11 @@ body{
    border-radius: 36px;
    font-family: Arial, Helvetica, sans-serif;
   
-=======
-  background-color: black;
-}
-#pagina{
-  width: 1000px;
-  height: 1500px;
-  margin: 0 auto;
-  background-color: rgba(199, 141, 76, 0.644);
->>>>>>> da9c737df9730172cad68331a9fa3de94a884c0d
 }
 #cabecalho{
   width: 1000px;
   height: 200px;
   display: flex;
-<<<<<<< HEAD
   background-color: crimson;
    border-radius: 36px 36px 0px 0px;
 }
@@ -39,24 +28,15 @@ p{
 a{
   text-align: left;
 }
-=======
-  background-color: aqua;
-}
->>>>>>> da9c737df9730172cad68331a9fa3de94a884c0d
 #ftperfil{
   width: 200px;
   height: 200px;
   display: flex;
-<<<<<<< HEAD
   margin: 20px 5px;
-=======
-  margin: 20px 10px;
->>>>>>> da9c737df9730172cad68331a9fa3de94a884c0d
 }
 .perfil{
   width: 150px;
   height: 150px;
-<<<<<<< HEAD
   border-radius: 38px;
   object-fit: cover;
 }
@@ -139,14 +119,3 @@ a{
 .link.linkedin{background: rgb(52, 52, 160);}
 .link.git{background: rgb(86, 81, 81); color: white;}
 .link.spotify{background: #109954;}
-=======
-  border-radius: 50%;
-  object-fit: cover;
-}
-#conteudo{
-  display: flex;
-  width: 1000px;
-  height: 1200px;
-  background-color: crimson;
-}
->>>>>>> da9c737df9730172cad68331a9fa3de94a884c0d
