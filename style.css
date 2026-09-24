@@ -1,33 +1,33 @@
-button.Entrar{
-  color: blue;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  border: none;
-  padding: 16px 24px;
-}
 body{
-  max-width: 1000px; 
-  width: 70%;     
+  background-color: black;
+}
+#pagina{
+  width: 1000px;
+  height: 1500px;
   margin: 0 auto;
+  background-color: rgba(199, 141, 76, 0.644);
 }
-h4{
+#cabecalho{
+  width: 1000px;
+  height: 200px;
   display: flex;
-  justify-content:center;
+  background-color: aqua;
 }
-
-
-img.perfil{
+#ftperfil{
   width: 200px;
   height: 200px;
+  display: flex;
+  margin: 20px 10px;
+}
+.perfil{
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 30px;
 }
-img{
-  border-radius: 50%;
-  justify-content: center;
-  color: aqua;
-  width: 50px;
-  height: 50px;
+#conteudo{
+  display: flex;
+  width: 1000px;
+  height: 1200px;
+  background-color: crimson;
 }
