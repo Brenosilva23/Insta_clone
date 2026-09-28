@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div id="conteudo">
+        <div id="navbar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Horizontal_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" height="40" alt="logo">
+            <div id="links">
+                <a href="http://google.com" target="_blank">visite o google</a>
+                <a href="http:github.com" target="_blank">github</a>
+            </div>
+        </div>
+        <div id="sidebar">
+            <form action="m" method="post">
+                <div class="form-item">
+                    <label for="texto-de-foto">texto da foto</label>
+                    <input type="text" name="texto-da-foto" id="nome">
+                </div>
+                <div class="form-item">
+                    <label for="seletor">marque se for verdadeiro</label>
+                    <input type="checkbox" name="seletor" id="checkbox">
+                </div>
+                <div class="form-item">
+                    <label for="idade">selecione sua idade:</label>
+                    <input type="radio" name="idade" id="idade1">menor de 18
+                    <input type="radio" name="idade" id="idade2">entre 18 e 25
+                    <input type="radio" name="idade" id="idade3">entre 25 a 40
+                    <input type="radio" name="idade" id="idade4">acima de 40
+                </div>
+                <textarea name="descricao" id="desc"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
