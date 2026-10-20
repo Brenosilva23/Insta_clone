@@ -1,4 +1,4 @@
-# 📸 Instagram Clone
+📸 Instagram Clone
 
 Um clone da interface do Instagram desenvolvido como projeto de estudo de desenvolvimento Front-End.
 O objetivo do projeto é replicar o layout e a experiência de usuário (UI/UX) da tela inicial e das telas de formulário de login/cadastro da rede social.
